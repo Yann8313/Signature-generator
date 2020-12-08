@@ -1,3 +1,2 @@
-const test = () => {
-  console.log("test");
-};
+/*****VARIABLES DOM ******/
+

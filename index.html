@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signature-Generator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div id="signature-body">
       <img
+        id="logoMH"
         src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/MH_Logo.gif?alt=media&token=424d0795-8647-4d40-b350-ab00b4c7592e"
         alt="logoMH"
       />
-      <h1 id="userName">Yannick Ayassa</h1>
+      <h1 id="userName">Yannick Ayassa </h1>
       <hr class="separator" />
-      <h2 id="userTitle">Technicien informatique / Support IT</h2>
+      <h2 id="userTitle">Technicien informatique / IT technician</h2>
       <hr class="separator" />
       <p id="phoneNumber">T: 514 866-6736 #436 / C: 438-506-2860</p>
       <p id="adress">87,rue Prince,Bureau 310, Montréal,QC H3C 2M7</p>
@@ -56,6 +58,10 @@
 
     <!-- Inputs-->
 
-    <div id="inputs"></div>
+    <div id="inputs">
+
+      <label for='Name'>Nom</label>
+      <input type="text" id="name">
+    </div>
   </body>
 </html>
