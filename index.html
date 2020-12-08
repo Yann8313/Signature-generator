@@ -8,66 +8,138 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div id="signature-body">
+    <div style="display: flex; flex-direction: column; width: auto; align-items: center;" id="signature-body">
       <img
+        style="height: 5rem; width: 8rem"
         id="logoMH"
         src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/MH_Logo.gif?alt=media&token=424d0795-8647-4d40-b350-ab00b4c7592e"
         alt="logoMH"
       />
-      <h1 id="userName">Yannick Ayassa</h1>
-      <hr class="separator" />
-      <h2 id="userTitle">Technicien informatique / IT technician</h2>
-      <hr class="separator" />
-      <p id="phoneNumber">T: 514 866-6736 #436 / C: 438-506-2860</p>
-      <p id="adress">87,rue Prince,Bureau 310, Montréal,QC H3C 2M7</p>
-      <ul id="social-media-links">
-        <li>
-          <a href="https://fr-ca.facebook.com/mhgraphiques/" target="_blank">
-            <img
-              class="logo-image"
-              src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/facebook.png?alt=media&token=3efd6df7-9f63-40fc-a719-f80c19c7407f"
-              alt="logo-facebook"
-          /></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/company/m-&-h/?originalSubdomain=fr"
-          >
-            <img
-              class="logo-image"
-              src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/linkedin.png?alt=media&token=885b5458-993f-4e89-b4bd-2cd9af6e37db"
-              alt="logo-linkedin"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/mhpolystudios/" target="_blank">
-            <img
-              class="logo-image"
-              src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/instagram.png?alt=media&token=84b459af-354c-44fb-a678-1d4b5dba1f8d"
-              alt="logo-instagram"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.mh.ca/montreal/?lang=en" target="_blank"
-            >M&H.ca</a
-          >
-        </li>
-      </ul>
-    </div>
+      <h1 style="margin: 2px; font-size: 16px" id="userName">Yannick Ayassa</h1>
+      <hr style="margin: 2px; width: 100%" class="separator" />
+      <h2 style="margin: 2px; font-size: 14px" id="userTitle">
+        Technicien informatique / IT technician
+      </h2>
+      <hr style="margin: 2px; width: 100%" class="separator" />
+      <div style="display: flex; align-items: center">
+        <img
+          height="13"
+          style="margin-right: 5px"
+          src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/phone.png?alt=media&token=e3db382a-bacf-442b-badf-0e3a1edbbf12"
+        />
+        <p
+          style="margin: 2px; font-size: 12px; color: rgb(88, 86, 86)"
+          id="phoneNumber"
+        >
+          T: 514 866-6736 #436 / C: 438-506-2860
+        </p>
+      </div>
+      <div style="display: flex; align-items: center">
+        <img
+          style="margin-right: 5px"
+          height="13"
+          src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/map.png?alt=media&token=7fb16b4a-efa0-4326-b803-3fd552f86a7c"
+        />
+        <p
+          style="margin: 2px; font-size: 12px; color: rgb(88, 86, 86)"
+          id="adress"
+        >
+          87 rue Prince,Bureau 310, Montréal,QC H3C 2M7
+        </p>
+      </div>
+      <div style="display: flex; align-items: center">
+        <img
+          style="margin-right: 3px"
+          height="13"
+          src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/internet.png?alt=media&token=cf248662-3105-4afe-a957-143864c788a6"
+        />
+        <a
+          style="font-size: 14px; margin-left: 4px; text-decoration: none"
+          href="https://www.mh.ca/montreal/?lang=en"
+          target="_blank"
+          >mh.ca</a
+        >
+      </div>
+      <div
+        style="margin-top: 5px; display: inline-block"
+        id="social-media-links"
+      >
+        <a
+          style="text-decoration: none"
+          href="https://fr-ca.facebook.com/mhgraphiques/"
+          target="_blank"
+        >
+          <img
+            height="25"
+            class="logo-image"
+            src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/facebook.png?alt=media&token=d06c4499-f412-4f3b-952f-2b332e71c41c"
+            alt=""
+        /></a>
+
+        <a
+          style="text-decoration: none"
+          href="https://www.linkedin.com/company/m-&-h/?originalSubdomain=fr"
+        >
+          <img
+            height="25"
+            class="logo-image"
+            src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/linkedin.png?alt=media&token=5175dbe4-bd5f-4fe6-8610-881f3c02f7cf"
+            alt=""
+          />
+        </a>
+
+        <a
+          style="text-decoration: none"
+          href="https://www.instagram.com/mhpolystudios/"
+          target="_blank"
+        >
+          <img
+            height="25"
+            class="logo-image"
+            src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/instagram.png?alt=media&token=eaabfc47-e6f3-4403-9d42-46a8e388b848"
+            alt=""
+            h
+        /></a>
+        <a
+          style="text-decoration: none"
+          href="https://www.behance.net/camleon_studios"
+          target="_blank"
+        >
+          <img
+            height="25"
+            class="logo-image"
+            src="https://firebasestorage.googleapis.com/v0/b/signature-generator-400e2.appspot.com/o/behance.png?alt=media&token=13bc7352-aede-41c1-872c-5eb092034f92"
+            alt=""
+            h
+        /></a>
+      </div>
+    
 
     <!-- Inputs-->
 
     <div id="inputs">
       <input type="text" placeholder="Nom" id="name" />
-      <input type="text" placeholder="Titre" id="name" />
-      <input type="text" placeholder="Téléphone" id="name" />
+      <input type="text" placeholder="Titre" id="title" />
+      <input type="text" id="phone" name="fphone" value="T: 514 866-6736" /><br /><br />
       <select id="adressList">
-        <option value="Audi">Audi</option>
-        <option value="BMW">BMW</option>
-        <option value="Mercedes">Mercedes</option>
-        <option value="Volvo">Volvo</option>
+        <option value="Studio">
+          87 rue Prince,Bureau 310, Montréal,QC H3C 2M7
+        </option>
+        <option value="Toronto">
+          340 King Street East, Suite 500, Toronto, ON M5A 1K8
+        </option>
       </select>
+      <button
+        style="
+          margin-top: 10px;
+          cursor: pointer;
+          background-color: rgb(228, 228, 240);
+          border-radius: 5rem;
+        "
+      >
+        Copier
+      </button>
     </div>
+  </div>
   </body>
 </html>
