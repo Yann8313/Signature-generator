@@ -68,6 +68,12 @@ body {
 /* Inputs */ 
 
 #inputs { 
+  display: flex;
+  flex-direction: column;
   margin: 5rem;
   align-self: flex-start;
+}
+
+#inputs input { 
+  margin: 1rem;
 }
