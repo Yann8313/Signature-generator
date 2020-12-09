@@ -1,3 +1,21 @@
+/*Copy Signature */
+
+const copyButton = document.getElementById("copyButton");
+const contentSignature = document.getElementById("signature-body");
+
+const select = () => {
+  window
+    .getSelection()
+    .selectAllChildren(document.getElementById("signature-body"));
+  document.execCommand("copy");
+  alert("La signature a éte copié !");
+  if (window.getSelection) {
+    window.getSelection().removeAllRanges();
+  }
+};
+
+copyButton.addEventListener("click", select);
+
 /*Adress */
 const adressList = document.getElementById("adressList");
 const adress = document.getElementById("adress");
@@ -28,7 +46,6 @@ const updateValuePhone = (e) => {
 };
 
 inputPhone.addEventListener("input", updateValuePhone);
-
 
 /* Title */
 const userTitle = document.getElementById("userTitle");
